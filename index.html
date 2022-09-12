@@ -1,0 +1,61 @@
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <title>Guia do HTML e CSS</title>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div>
+        <h1>Faça download grátis aqui</h1>
+        <p>Preencha o formulário abaixo para acessar o ebook.</p>
+      </div>
+    </header>
+    <form>
+        <label class="label" for="nome">Nome*</label>
+        <input class="input" id="nome" placeholder="Nome" type="nome"></input>
+    
+        <label class="label" for="email">Email*</label>
+        <input class="input" id="email" placeholder="Email" type="Email"></input>
+        
+        <label class="label" for="Profissionalmente, você se considera">Profissionalmente, você se considera:*</label>
+        <select class="input" type="text" id="Profissao">
+          <option>Selecione</option>
+        </select>
+  
+        <label class="label" for="Qual é o seu objetivo?">Qual é o seu objetivo?*</label>
+        <select class="input" type="text" id="objetivo">
+          <option>Selecione</option>
+        </select>
+        
+        <h2>Você possui interesse em iniciar um curso online?*</h2>
+        <div class="inputs">
+          <input type="radio" name="interesse" value="sim" id="SIM"></input>
+          <label for="SIM">Sim</label>
+        </div>
+        
+        <div class="inputs">
+          <input type="radio" id="NÃO" name="interesse" value="não"></input>
+          <label for="NÃO" >Não</label>
+        </div>
+
+        <label class="label margin_top" for="resultado">7+8=?</label>
+        <input class="input" id="resultado" type="number" placeholder="resultado" required></input>
+
+        <div class="botao">
+          <button type="submit"  class="btn">Aprender HTML e CSS agora!</button>
+        </div>
+      </form>
+    <footer>
+    <h3>Prometemos não usar suas informações de contato para enviar qualquer tipo de SPAM.</h3>
+    </footer>
+  </main>
+  </body>
+</html>
